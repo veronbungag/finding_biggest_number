@@ -14,6 +14,10 @@ def find_biggest():
       #else store third number is biggest number
         else:
             biggest = third
-#else 
-#if second number is greater than third number
-#else third number is biggest number
+ else:
+      #if second number is greater than third number
+        if second > third:
+            biggest = second
+      #else third number is biggest number
+        else:
+            biggest = third 

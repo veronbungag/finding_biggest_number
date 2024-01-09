@@ -21,3 +21,7 @@ def find_biggest():
       #else third number is biggest number
         else:
             biggest = third 
+ #print data
+ print("The biggest number is:", biggest)
+
+find_biggest()

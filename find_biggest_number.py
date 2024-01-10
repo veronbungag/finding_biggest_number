@@ -48,5 +48,9 @@ second_number.pack(side=LEFT)
 second_number = Entry(frame)
 second_number.pack(side=LEFT)
 #Display a dialog box asking the user to enter the third number
+third_number = Label(frame, text="Enter third number:", font="Courier", bg="pink")
+third_number.pack(side=LEFT)
+third_number = Entry(frame)
+third_number.pack(side=LEFT)
 #add button
 #Display a dialog box showing the result

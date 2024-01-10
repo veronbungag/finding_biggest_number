@@ -29,3 +29,10 @@ def find_biggest():
  print("The biggest number is: ", biggest)
 
 find_biggest()
+
+#create a window root with title "Find biggest number"
+#Display a dialog box asking the user to enter the first number
+#Display a dialog box asking the user to enter the second number
+#Display a dialog box asking the user to enter the third number
+#add button
+#Display a dialog box showing the result

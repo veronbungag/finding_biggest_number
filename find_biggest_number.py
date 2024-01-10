@@ -1,3 +1,7 @@
+#import tkinter interface
+import tkinter as tk
+from tkinter import messagebox
+
 #define find biggest number
 #ask user to input three numbers and store in each variables
 

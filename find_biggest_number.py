@@ -31,7 +31,15 @@ def find_biggest():
 find_biggest()
 
 #create a window root with title "Find biggest number"
+root = tk.Tk()
+root.title("Biggest Number Finder")
+root.geometry("900x300")
+root.config(background = "pink") 
+
+frame = Frame(root)
+frame.pack()
 #Display a dialog box asking the user to enter the first number
+
 #Display a dialog box asking the user to enter the second number
 #Display a dialog box asking the user to enter the third number
 #add button

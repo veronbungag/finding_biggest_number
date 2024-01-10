@@ -56,4 +56,4 @@ button.pack()
 result_label = Label(root, text="The biggest number:", font="Courier", bg="pink")
 result_label.pack()
 
-root.mainloop()
+root.mainloop() 

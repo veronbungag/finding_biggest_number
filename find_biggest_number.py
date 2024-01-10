@@ -43,6 +43,10 @@ first_number.pack(side=LEFT)
 first_number = Entry(frame)
 first_number.pack(side=LEFT)
 #Display a dialog box asking the user to enter the second number
+second_number = Label(frame, text="Enter second number:", font="Courier", bg="pink")
+second_number.pack(side=LEFT)
+second_number = Entry(frame)
+second_number.pack(side=LEFT)
 #Display a dialog box asking the user to enter the third number
 #add button
 #Display a dialog box showing the result

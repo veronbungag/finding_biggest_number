@@ -5,9 +5,9 @@ from tkinter import *
 #ask user to input three numbers and store in each variables
 
 def find_biggest():
-     first = int(first.get())
-     second = int(second.get())
-     third = int(third.get())
+     first = int(first_number.get())
+     second = int(second_number.get())
+     third = int(third_number.get())
  
  #if first number is greater than second number
      if first > second:
@@ -25,10 +25,7 @@ def find_biggest():
         else:
             biggest = third 
      result_label.config(text="The biggest number is: " + str(biggest))
-            
-
-find_biggest()
-
+          
 #create a window root with title "Find biggest number"
 root = Tk()
 root.title("Biggest Number Finder")
@@ -53,4 +50,10 @@ third_number.pack(side=LEFT)
 third_number = Entry(frame)
 third_number.pack(side=LEFT)
 #add button
+button = Button(root, text="Find Biggest", command=find_biggest, font="Courier", bg="pink")
+button.pack()
 #Display a dialog box showing the result
+result_label = Label(root, text="The biggest number:", font="Courier", bg="pink")
+result_label.pack()
+
+root.mainloop()
